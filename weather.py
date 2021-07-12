@@ -39,12 +39,12 @@ while OPTION != 0:
                 # print(item['weather'][0]['description'])
                 print(f"Weather Report: {item['weather'][0]['description']}\nTemperature(Cel): {item['main']['temp']}")
                 break;
-            if OPTION == 2:
+            elif OPTION == 2:
                 wind = item['wind']
                 speed = wind['speed']
                 print(f"Wind Speed: {speed}")
                 break;
-            if OPTION == 3:
+            elif OPTION == 3:
                 # getting the pressure
                 pressure = main['pressure']
                 print(f"Pressure(hPa): {pressure}")
@@ -53,6 +53,7 @@ while OPTION != 0:
                 # else :
                 #     # showing the error message
                 #     print("Error in the HTTP request")
-                
+            else:
+                print("Invalid Input")
     print('1 -> Get Weather\n2 -> Get Wind Speed\n3 -> Get Pressure\n0 -> Exit')
     OPTION = int(input())
