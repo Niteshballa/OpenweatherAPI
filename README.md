@@ -1,7 +1,7 @@
 # OpenweatherAPI
 Simple python program ffo Weather prediction using OpenweatherAPI.
 
-# The programs Runs in the following way
+# Input 
 
 1 -> Get Weather
 2 -> Get Wind Speed
