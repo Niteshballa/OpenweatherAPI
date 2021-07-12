@@ -1,5 +1,5 @@
 # OpenweatherAPI
-Simple python program ffo Weather prediction using OpenweatherAPI.
+Simple python program for Weather prediction using OpenweatherAPI.
 
 # Input 
 
